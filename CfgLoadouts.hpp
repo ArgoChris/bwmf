@@ -20,35 +20,36 @@ class CfgLoadouts {
   prefixes[] = {"b_", "o_", "i_"};
 
   // Shared defines
-  #include "Loadouts\common.hpp" // DO NOT COMMENT OUT, WILL BREAK EVERYTHING
+  #include "Loadouts\_do-not-edit\common.hpp" // DO NOT COMMENT OUT, WILL BREAK EVERYTHING
 
 //TO SELECT A LOADOUT
 //Select your preferred loadout from the appropriate folder
+//Copy it to the \Loadouts folder
 //Rename it to it's respective side (or replace it here)
 
   // West factions
-  #include "Loadouts\west_gear.hpp"
+  #include "Loadouts\_do-not-edit\west_gear.hpp"
   class blu_f { // BluFor
-    #include "Loadouts\NATO\blufor.hpp"
+    #include "Loadouts\WEST\blufor.hpp"
   };
 
   // Indy factions
-  #include "Loadouts\indy_gear.hpp"
+  #include "Loadouts\_do-not-edit\indy_gear.hpp"
   class ind_f { // Indy
     #include "Loadouts\INDY\indy.hpp"
   };
 
   // East Factions
-  #include "Loadouts\east_gear.hpp"
+  #include "Loadouts\_do-not-edit\east_gear.hpp"
   class opf_f { // OpFor
     #include "Loadouts\EAST\opfor.hpp"
   };
 
   class potato_msv { // MSV
-    #include "Loadouts\EAST\MSV.hpp"
+    #include "Loadouts\MSV.hpp"
   };
 
   // Civilians (mainly for RP missions)
-  #include "Loadouts\civ_gear.hpp"
-  #include "Loadouts\civilians.hpp" // Bare example of doing civilian loadouts
+  #include "Loadouts\_do-not-edit\civ_gear.hpp"
+  #include "Loadouts\CIV\civilians.hpp" // Bare example of doing civilian loadouts
 };
